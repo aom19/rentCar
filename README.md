@@ -47,7 +47,9 @@ A step by step series of examples that tell you how to get a development env run
    ###  ```npm install ``` to install all the dependencies
    ###   ```npm start``` to start the app
 
-Go to http://localhost:3000/graphql
+
+Go to http://localhost:3000/graphql  - server
+Go to http://localhost:3000          -frontend
 
 
 
