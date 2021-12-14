@@ -45,12 +45,16 @@ A step by step series of examples that tell you how to get a development env run
 
 
 
-## Built With
+## Server Built With
 
-- [Node Js](https://nodejs.org/en/) - Designed to build scalable network applications.
-- [Express Js](https://expressjs.com/en/5x/api.html) - Express is a minimal and flexible Node.js web application framework
-- [Mongo DB](https://docs.mongodb.com/) - NONSQL Database
-- [GraphQL](https://graphql.org/) - GraphQL is a query language for APIs and a runtime for fulfilling those queries
+- [Node Js]
+- [Express Js]
+- [Mongo DB]
+- [GraphQL]
+
+## Frontend Built With
+- [React Js]
+- [Redux]
 
 
 
@@ -69,7 +73,7 @@ Go to http://localhost:3000          -frontend
 
 ## Authors
 
-- **Ostopovici Anton** - _Initial work_ - [aom19](https://github.com/aom19)
+- **Ostopovici Anton**  - [aom19](https://github.com/aom19)
 
 
 ## License
