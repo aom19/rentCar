@@ -9,7 +9,14 @@
 ## Screen Shots 
 
 
-<img width="1340" alt="Screen Shot 2021-11-18 at 4 05 18 PM" src="https://user-images.githubusercontent.com/39848284/142430214-d413639b-7b4e-4ba2-9335-47002e68c1fd.png">
+### HomePage
+![Screen Shot 2021-12-14 at 7 02 58 PM](https://user-images.githubusercontent.com/39848284/146045151-e82ae572-10ef-4f24-9dd6-e549bccf6504.png)
+
+### Cars
+![Screen Shot 2021-12-14 at 7 02 17 PM](https://user-images.githubusercontent.com/39848284/146045171-528045a0-e3df-4b9d-a59a-c09652121dc1.png)
+
+### SingleCar
+![Screen Shot 2021-12-14 at 7 02 44 PM](https://user-images.githubusercontent.com/39848284/146045166-e74b86c0-e89e-4b97-921f-e355a05f179c.png)
 
 ### Prerequisites
 
@@ -18,7 +25,7 @@ What things you need to install :
 ```
 Node js
 Package manager "npm"
-Chrome extension for GraphQL Playground
+
 ```
 
 ### Installing
