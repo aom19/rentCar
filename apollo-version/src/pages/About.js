@@ -51,7 +51,7 @@ const About = () => {
                 backgroundPosition: "center ",
                 // overflow: "hidden",
                 // zIndex: -999,
-                marginLeft: "-50px",
+                marginLeft: "-130px",
               }}
             ></div>
             <div class="col-md-6 wrap-about ">

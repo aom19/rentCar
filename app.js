@@ -2,12 +2,12 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { graphqlHTTP } = require("express-graphql");
 
-const path = require("path");
 
 const mongoose = require("mongoose");
 
 const graphQlSchema = require("./graphql/schema/index");
 const graphQlResolvers = require("./graphql/resolvers/index");
+
 const isAuth = require("./middleware/is-auth");
 require("dotenv").config();
 

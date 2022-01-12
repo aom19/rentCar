@@ -68,4 +68,34 @@ module.exports = {
       // email: email,
     };
   },
+  auth: async ({ email, password }) => {
+    const adminId = await User.findById("605851d78057ed0071223973");
+
+    const user = await User.findOne({ email: email });
+
+    const isAdmin = adminId.equals(user);
+
+    if (!user) {
+      throw new Error("User does not exist");
+    }
+    //compare the password typed with the password from database
+    const isEqual = await bcrypt.compare(password, user.password);
+    if (!isEqual) {
+      throw new Error("Password is incorrect");
+    }
+    //generate token
+    const token = jwt.sign(
+      { userId: user.id, email: user.email, isAdmin: isAdmin },
+      //key to hash the token
+      "somesupersecretkey",
+      { expiresIn: "1h" }
+    );
+    return {
+      // userId: user.id,
+      token: token,
+      tokenExpiration: 1,
+      // isAdmin: isAdmin,
+      // email: email,
+    };
+  },
 };

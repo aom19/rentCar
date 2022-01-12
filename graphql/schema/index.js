@@ -129,6 +129,7 @@ type RootMutation{
     bookEvent(eventId : ID!, bookingInput :BookingInput):Booking
     cancelBooking(bookingId : ID!): Event!
     addToBlackList(userId:ID!) : BadUser!
+    auth(email :String! , password :String! ) : AuthData!
     
 
 }
